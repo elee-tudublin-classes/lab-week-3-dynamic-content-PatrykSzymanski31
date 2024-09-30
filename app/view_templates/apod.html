@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Load common head content, including the favicon link -->
+    {% include "./partials/head.html" ignore missing with context %}
+    <title>A P O D</title>
+</head>
+<body>
+     <!-- include navbar from partials -->
+     {% include "./partials/nav.html" ignore missing with context %}
+
+     <h1>Dynamic content Examples</h1>
+ 
+     <!-- Load common CSS and JS -->
+     {% include "./partials/dependencies.html" ignore missing with context %}
+    <p>
+        Ut in lectus ante. Mauris ornare felis dolor, sit amet vulputate nisi posuere quis. Etiam a ultricies elit. Fusce lacinia ultricies purus in molestie. Phasellus maximus dapibus lacus, et molestie sapien porta eget. Pellentesque maximus, magna et ultrices feugiat, augue erat dictum ante, sodales suscipit velit odio a ligula. Etiam blandit, nisi ut semper eleifend, enim lorem tempor nunc, sed volutpat diam dui sed elit. Donec condimentum ante eu vehicula vulputate.
+    </p>
+</body>
+</html>
